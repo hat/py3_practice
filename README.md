@@ -50,3 +50,12 @@ class TestMethods(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+### Using Coverage for Testing
+
+* Coverage is a python libarary which will check what percentage of code is tested
+* Install via `pip install coverage`
+* `coverage run tests.py`: Run coverage to show percentage of code tested
+* `coverage report -m`: Show results, -m flag will show lines without coverage
+* Show coverage report in HTML for added benefits such as links
+    * `python -m http.server`: Open document tree to localhost for viewing
